@@ -27,6 +27,7 @@
   ],
   "main": "public/dist/server/app/index.js",
   "scripts": {
+    "rpg": "tsx app/rpg/play.ts",
     "dev-client": "node esbuild.js --dev",
     "dev-server": "tsx watch ./app/index.ts",
     "dev": "npm-run-all --parallel dev-*",
